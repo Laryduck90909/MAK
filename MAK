@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAK - موسيقاي</title>
+    <meta name="description" content="استمع إلى أحدث مقاطع الموسيقى من MAK.">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .music-section {
+            margin-top: 20px;
+        }
+        .track {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .social-media a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>مرحبا بكم في MAK</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">من نحن</a></li>
+                    <li><a href="#">الخدمات</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container" id="main">
+        <h2>موسيقاي</h2>
+        <div class="music-section">
+            <div class="track">
+                <h3>عنوان المقطع 1</h3>
+                <audio controls>
+                    <source src="path-to-your-music-file1.mp3" type="audio/mpeg">
+                    متصفحك لا يدعم تشغيل الصوت.
+                </audio>
+                <p>وصف قصير عن المقطع 1.</p>
+            </div>
+            <div class="track">
+                <h3>عنوان المقطع 2</h3>
+                <audio controls>
+                    <source src="path-to-your-music-file2.mp3" type="audio/mpeg">
+                    متصفحك لا يدعم تشغيل الصوت.
+                </audio>
+                <p>وصف قصير عن المقطع 2.</p>
+            </div>
+            <!-- أضف المزيد من المقاطع هنا -->
+        </div>
+    </div>
+    <footer>
+        <p>جميع الحقوق محفوظة © 2024</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a>
+            <a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
